@@ -30,7 +30,7 @@ git config --global --add safe.directory $1
 
 ### Python
 
-1. Save a text file containing the code withe the `.py` extension.
+1. Save a text file containing the code with a `.py` extension.
 
    Example: *bucketSort.py*
 
@@ -38,7 +38,7 @@ git config --global --add safe.directory $1
 
 ### C++
 
-1. Save a text file containing the code with the `.cpp` extension.
+1. Save a text file containing the code with a `.cpp` extension.
 
    Example: *bucketSort.cpp*
 
@@ -58,7 +58,7 @@ git config --global --add safe.directory $1
 
 *NOTE:* I'm using the extension `.exe` for the output file simply to make it easier to ignore the compiled files. You do not need an extension.
 
-1. Save a text file containing the code with the `.c` extension.
+1. Save a text file containing the code with a `.c` extension.
 
    Example: *bucketSort.c*
 
@@ -76,7 +76,7 @@ git config --global --add safe.directory $1
 
 ### Java
 
-1. Save a text file containing the code with the `.java` extension.
+1. Save a text file containing the code with a `.java` extension.
 
    Example: *BucketSort.java*
 
@@ -89,6 +89,12 @@ git config --global --add safe.directory $1
    Example: `java BucketSort`
 
 ### JavaScript
+
+1. Save a text file containing the code with a `.js` extension.
+
+   Example: *bucketSort.js*
+
+2. In the directory containing the file, run `node bucketSort.js`.
 
 ### Go
 
