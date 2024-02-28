@@ -1,1 +1,6 @@
+# general files
 configit.sh
+
+# Executables and compiled files
+*.exe
+*.out
