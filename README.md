@@ -34,7 +34,9 @@ git config --global --add safe.directory $1
 
    Example: *bucketSort.py*
 
-2. In the directory containing the file, run `python bucketSort.py`.
+2. In the directory containing the file, run `python <filename>.py`.
+
+   Example: `python bucketSort.py`.
 
 ### C++
 
@@ -94,8 +96,18 @@ git config --global --add safe.directory $1
 
    Example: *bucketSort.js*
 
-2. In the directory containing the file, run `node bucketSort.js`.
+2. In the directory containing the file, run `node <filename>.js`.
+
+   Example: `node bucketSort.js`.
 
 ### Go
+
+1. Save a text file containing the code with a `.go` extension.
+
+   Example: *bucketSort.go*
+
+2. In the directory containing the file, run `go run <filename>.go`.
+
+   Example: `go run bucketSort.go`.
 
 ### Ruby
