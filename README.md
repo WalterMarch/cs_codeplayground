@@ -32,7 +32,39 @@ git config --global --add safe.directory $1
 
 ### C++
 
+1. Save a text file containing the code with the `.cpp` extension.
+
+   Example: *bucketSort.cpp*
+
+2. In the directory containing the file, run `g++ <filename.cpp> -o <filename.out>`.
+
+   This would produce a `filename.out` file, which will run in step 3.
+
+   Example: `g++ bucketSort.cpp -o bucketSort.out`
+
+3. To run the file, simply enter the following: `./<filename.out>`
+
+   The `g++` command made us an executable file, `filename.out`. Here we tell the system to run that file.
+
+   Example: `./bucketSort.out`
+
 ### C
+
+1. Save a text file containing the code with the `.c` extension.
+
+   Example: *bucketSort.c*
+
+2. In the directory containing the file, run `gcc <filename.c> -o <filename>`.
+
+   This would produce a `filename` file, which will run in step 3.
+
+   Example: `gcc bucketSort.c -o bucketSort`
+
+3. To run the file, simply enter the following: `./<filename>`
+
+   The `g++` command made us an executable file, `filename`. Here we tell the system to run that file.
+
+   Example: `./bucketSort`
 
 ### Java
 
