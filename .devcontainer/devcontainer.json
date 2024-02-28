@@ -1,0 +1,40 @@
+{
+	"name": "cs_codeplayground",
+
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+    "features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
+        "ghcr.io/devcontainers/features/python:1": {"version": "3.8"},
+		"ghcr.io/devcontainers/features/java:1": {"version": "17"},
+		"ghcr.io/devcontainers/features/node:1": {"version": "16"},
+		"ghcr.io/devcontainers/features/go:1": {"version": "1.17"},
+		"ghcr.io/devcontainers/features/php:1": {"version": "8"},
+		"ghcr.io/devcontainers/features/ruby:1": {"version": "3.2"},
+	},
+
+	// https://stackoverflow.com/a/67803226/21655737
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind",
+	],
+
+    "postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/post-create.sh ${containerWorkspaceFolder}",
+
+	"customizations": {
+		"vscode": {
+			"settings" : {"editor.rulers": [72, 79]},
+			"extensions": [
+				"ms-vscode-remote.remote-wsl",
+				"ms-azuretools.vscode-docker",
+				"eamodio.gitlens",
+				"streetsidesoftware.code-spell-checker",
+				"DavidAnson.vscode-markdownlint",
+				"ms-python.python",
+				"ms-python.pylint",
+				"ms-python.black-formatter",
+				"GitHub.vscode-github-actions"
+			]
+		}
+	}
+}
