@@ -70,6 +70,18 @@ git config --global --add safe.directory $1
 
 ### Java
 
+1. Save a text file containing the code with the `.java` extension.
+
+   Example: *BucketSort.java*
+
+2. In the directory containing the file, run `javac <filename.java>`.
+
+   Example: `javac BucketSort.java`
+
+3. To run the file, run: `java <filename>`
+
+   Example: `java BucketSort`
+
 ### JavaScript
 
 ### Go
