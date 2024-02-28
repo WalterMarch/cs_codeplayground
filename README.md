@@ -50,21 +50,23 @@ git config --global --add safe.directory $1
 
 ### C
 
+*NOTE:* I'm using the extension `.exe` for the output file simply to make it easier to ignore the compiled files. You do not need an extension.
+
 1. Save a text file containing the code with the `.c` extension.
 
    Example: *bucketSort.c*
 
-2. In the directory containing the file, run `gcc <filename.c> -o <filename>`.
+2. In the directory containing the file, run `gcc <filename.c> -o <filename>.exe`.
 
    This would produce a `filename` file, which will run in step 3.
 
-   Example: `gcc bucketSort.c -o bucketSort`
+   Example: `gcc bucketSort.c -o bucketSort.exe`
 
-3. To run the file, simply enter the following: `./<filename>`
+3. To run the file, simply enter the following: `./<filename>.exe`
 
-   The `g++` command made us an executable file, `filename`. Here we tell the system to run that file.
+   The `g++` command made us an executable file, `filename.exe`. Here we tell the system to run that file.
 
-   Example: `./bucketSort`
+   Example: `./bucketSort.exe`
 
 ### Java
 
