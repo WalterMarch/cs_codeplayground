@@ -30,6 +30,12 @@ git config --global --add safe.directory $1
 
 ### Python
 
+1. Save a text file containing the code withe the `.py` extension.
+
+   Example: *bucketSort.py*
+
+2. In the directory containing the file, run `python bucketSort.py`.
+
 ### C++
 
 1. Save a text file containing the code with the `.cpp` extension.
