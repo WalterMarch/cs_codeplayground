@@ -15,6 +15,9 @@ void insert(struct Node** bucket, double value) {
         *bucket = newNode;
     } else {
         newNode->next = *bucket;
+        // problem appears to be here with assignment
+        // *bucket = newNode; when *bucket is NOT NULL
+        // causes Segmentation fault
         *bucket = newNode;
     }
 }
